@@ -5,11 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
@@ -408,7 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-staff,
 #fh5co-contact,
 #fh5co-footer {
-  padding: 7em 0;
+  padding: 3em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -475,13 +471,13 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.3s;
 }
 .services:hover .icon, .services:focus .icon {
-  background: #fff708;
+  background: #04190A;
 }
 .services:hover .icon i, .services:focus .icon i {
-  color: #000;
+  color: #fff;
 }
 .links:hover {
-  background: #fff708;
+  background: #04190A;
 }
 .fsdtlogo{
   margin-left: 30px;
@@ -675,7 +671,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 1em;
 }
 .fh5co-heading h2 {
   font-size: 24px;
@@ -1111,7 +1107,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(0, 0, 0, 0.1);
 }
 #fh5co-gallery h2 span:before {
-  lett: 0;
+  left: 0;
   margin-left: -125px;
 }
 #fh5co-gallery h2 span:after {
@@ -1132,7 +1128,16 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-box-shadow: inset 0px 0px 124px 11px rgba(0, 0, 0, 0.74);
   box-shadow: inset 0px 0px 124px 11px rgba(0, 0, 0, 0.74);
 }
-
+#footer{
+  background: #04190A;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #fff !important;
+  padding-top: 20px;
+  font-size: 1.2em;
+}
 #fh5co-footer {
   background: #efefef;
   background-size: cover;
@@ -1471,8 +1476,9 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid #2D6CDF;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #437be2 !important;
-  border-color: #437be2 !important;
+  background: #2a5ab3 !important;
+  border-color: #2a5ab3 !important;
+  
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -1602,7 +1608,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control {
   box-shadow: none;
   background: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(101, 168, 119, 0.435);
   height: 54px;
   font-size: 14px;
   font-weight: 400;
@@ -1644,4 +1650,3 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 0;
 }
 
-/*# sourceMappingURL=style.css.map */
