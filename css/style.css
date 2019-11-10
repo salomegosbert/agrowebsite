@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 80px;
   line-height: 1.3;
   font-weight: 300;
 }
@@ -640,7 +640,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   top: .05em;
   font-family: 'icomoon';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -662,9 +662,14 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 23px;
   content: "\e91e";
 }
-.fh5co-contact-info ul li.url:before {
+.fh5co-contact-info ul li.twitter:before {
   font-size: 23px;
-  content: "\e9df";
+  content: "\e990";
+}
+
+.fh5co-contact-info ul li.instagram:before {
+  font-size: 23px;
+  content: "\eac2";
 }
 .fh5co-contact-info ul li a {
   color: rgba(0, 0, 0, 0.8);
@@ -1268,7 +1273,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   right: 0px;
   font-family: 'icomoon';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
