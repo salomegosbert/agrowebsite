@@ -276,7 +276,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #home {
   min-height: 630px;
   height: 630px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #home .btn {
   font-size: 24px;
@@ -388,7 +387,24 @@ h1, h2, h3, h4, h5, h6, figure {
 #home .flexslider .slider-text > .slider-text-inner .fh5co-lead .icon-heart {
   color: #d9534f;
 }
-
+#home .header-text{
+  color:white;
+  text-align: center;
+  margin:50px 0px;
+  z-index: 999;
+}
+#home .heading-section{
+  margin-bottom: 20px;
+  font-size: 80px;
+  line-height: 1.3;
+  font-weight: 300;
+}
+@media screen and (max-width:768px){
+  #home .heading-section{
+    font-size: 30px;
+    
+  }
+}
 .fh5co-bg-section {
   background: #e8e8e8;
 }
@@ -1137,7 +1153,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 300px;
 }
 .gallery:hover {
-  -webkit-box-shadow: inset 0px 0px 124px 11px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: inset 5px 5px 124px 11px rgba(0, 0, 0, 0.74);
   -moz-box-shadow: inset 0px 0px 124px 11px rgba(0, 0, 0, 0.74);
   box-shadow: inset 0px 0px 124px 11px rgba(0, 0, 0, 0.74);
 }
