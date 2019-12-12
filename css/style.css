@@ -8,6 +8,7 @@
 
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.7;
@@ -87,6 +88,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .top-menu {
   padding: 0;
+  background: rgb(63, 148, 58);
 }
 .fh5co-nav .top {
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -139,7 +141,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav #fh5co-logo {
   font-size: 24px;
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
   text-transform: uppercase;
   font-weight: bold;
   font-weight: 700;
@@ -172,10 +174,12 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   list-style: none;
   display: inline;
-  font-weight: 300;
+  font-weight: 200;
 }
 .fh5co-nav ul li a {
-  font-size: 14px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
   padding: 30px 15px;
   color: rgba(0, 0, 0, 0.9);
   -webkit-transition: 0.5s;
@@ -183,7 +187,8 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: black;
+  color: rgb(251, 251, 251);
+  
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -276,6 +281,32 @@ h1, h2, h3, h4, h5, h6, figure {
 #home {
   min-height: 630px;
   height: 630px;
+  text-align: center;
+  color: white;
+  background-image: url(../images/farmlarge4.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#home .intro-text{
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+#home .intro-heading{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-bottom: 50px;
+}
+#home .intro-subheading{
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 25px;
 }
 #home .btn {
   font-size: 24px;
@@ -497,11 +528,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .links{
   padding: 30px 5px;
   font-size: 30px;
-
-}
-.links:hover {
-  background: rgb(7, 53, 20);
-  color:#fff;
+  color: #2a5ab3;
 }
 .fsdtlogo{
   margin-left: 30px;
@@ -1271,7 +1298,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: #3f983abb;
 }
 #fh5co-offcanvas a:hover {
   color: rgba(255, 255, 255, 0.8);
